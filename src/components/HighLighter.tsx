@@ -1,7 +1,6 @@
-import { ActivityIndicator, Alert, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { wrapperStyles } from "../styles/wrapperstyle";
 import React, { useEffect, useState } from "react";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default React.memo(function HighLighter({
   item,
@@ -11,20 +10,15 @@ export default React.memo(function HighLighter({
   state,
 }: any) {
   var content: any;
-  // Alert.alert(
-  //   JSON.stringify(`${showPredict},${predictData.length},${state.loading}`)
-  // );
   const [load, setLoad] = useState(false);
   useEffect(() => {
     var x: any;
-
     setLoad(true);
     if (!predictData.length) {
       x = setTimeout(() => setLoad(false), 1000);
     } else {
       setLoad(false);
     }
-
     return () => {
       clearTimeout(x);
     };
