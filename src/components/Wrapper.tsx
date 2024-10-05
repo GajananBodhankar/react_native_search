@@ -16,7 +16,7 @@ function Wrapper() {
   useEffect(() => {
     bussinessLogic.getdata(dispatch);
     // AsyncStorage.getAllKeys().then((e) => console.log(e));
-    // AsyncStorage.clear().then(e=>console.log("first"))
+    AsyncStorage.clear().then(e=>console.log("first"))
   }, []);
   useEffect(() => {
     var timer: any;

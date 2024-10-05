@@ -1,6 +1,7 @@
-import { Alert, Text, View } from "react-native";
+import { ActivityIndicator, Alert, Text, View } from "react-native";
 import { wrapperStyles } from "../styles/wrapperstyle";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default React.memo(function HighLighter({
   item,
@@ -13,7 +14,22 @@ export default React.memo(function HighLighter({
   // Alert.alert(
   //   JSON.stringify(`${showPredict},${predictData.length},${state.loading}`)
   // );
-  if ((showPredict == true && predictData.length > 0) || state.loading) {
+  const [load, setLoad] = useState(false);
+  useEffect(() => {
+    var x: any;
+
+    setLoad(true);
+    if (!predictData.length) {
+      x = setTimeout(() => setLoad(false), 1000);
+    } else {
+      setLoad(false);
+    }
+
+    return () => {
+      clearTimeout(x);
+    };
+  }, [state.searchText]);
+  if (showPredict == true && predictData.length > 0) {
     content = <Text style={wrapperStyles.titleStyle}>{item.title}</Text>;
   } else if (
     (text.left || text.match || text.right) &&
@@ -32,5 +48,13 @@ export default React.memo(function HighLighter({
     content = <Text style={wrapperStyles.titleStyle}>{item.title}</Text>;
   }
 
-  return content;
+  return (
+    <>
+      {load ? (
+        <Text style={wrapperStyles.titleStyle}>{item.title}</Text>
+      ) : (
+        content
+      )}
+    </>
+  );
 });

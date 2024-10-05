@@ -42,6 +42,7 @@ class BussinessLogic {
             } else {
                 search = true;
             }
+            dispatch({ type: ReducerTypes.notLoading });
             if (search) {
                 dispatch({ type: ReducerTypes.loading });
                 timer = setTimeout(() => {

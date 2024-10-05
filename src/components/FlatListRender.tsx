@@ -31,6 +31,7 @@ export default React.memo(function FlatListRender({
       <View>
         <Text style={wrapperStyles.id}>{item.id}</Text>
       </View>
+
       <View style={{ flex: 1 }}>
         <HighLighter
           item={item}
