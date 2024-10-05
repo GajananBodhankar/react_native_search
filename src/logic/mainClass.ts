@@ -21,6 +21,7 @@ class BussinessLogic {
     async filterData(state: any, setPredictData: any, dispatch: any,) {
         var timer: any;
         let search = true;
+        dispatch({ type: ReducerTypes.loading });
 
         if (state.searchText) {
             let e = await AsyncStorage.getAllKeys();
@@ -44,7 +45,7 @@ class BussinessLogic {
             if (search) {
                 dispatch({ type: ReducerTypes.loading });
                 timer = setTimeout(() => {
-                    //api call)
+                    //api call
                     let result = state.data.filter(
                         (i: { title: string }) =>
                             i.title.startsWith(state.searchText.toLowerCase()) ||
@@ -60,6 +61,8 @@ class BussinessLogic {
                     dispatch({ type: ReducerTypes.notLoading });
                 }, 1000);
             }
+            dispatch({ type: ReducerTypes.notLoading });
+
         } else {
             this.getdata(dispatch);
         }
