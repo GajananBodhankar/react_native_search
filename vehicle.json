@@ -1,0 +1,365 @@
+[
+    {
+        "vehicleId": "01"
+    },
+    {
+        "vehicleId": "1"
+    },
+    {
+        "vehicleId": "2"
+    },
+    {
+        "vehicleId": "3"
+    },
+    {
+        "vehicleId": "4"
+    },
+    {
+        "vehicleId": "5"
+    },
+    {
+        "vehicleId": "12"
+    },
+    {
+        "vehicleId": "20"
+    },
+    {
+        "vehicleId": "23"
+    },
+    {
+        "vehicleId": "67"
+    },
+    {
+        "vehicleId": "100"
+    },
+    {
+        "vehicleId": "230"
+    },
+    {
+        "vehicleId": "300"
+    },
+    {
+        "vehicleId": "450"
+    },
+    {
+        "vehicleId": "@"
+    },
+    {
+        "vehicleId": "@#3"
+    },
+    {
+        "vehicleId": "@123"
+    },
+    {
+        "vehicleId": "#4"
+    },
+    {
+        "vehicleId": "132@"
+    },
+    {
+        "vehicleId": "BTEST"
+    },
+    {
+        "vehicleId": "K100"
+    },
+    {
+        "vehicleId": "NEWTEST"
+    },
+    {
+        "vehicleId": "Newtest1"
+    },
+    {
+        "vehicleId": "NV_02"
+    },
+    {
+        "vehicleId": "NV_03"
+    },
+    {
+        "vehicleId": "P1"
+    },
+    {
+        "vehicleId": "P2"
+    },
+    {
+        "vehicleId": "P999"
+    },
+    {
+        "vehicleId": "P5550"
+    },
+    {
+        "vehicleId": "PoliceVeh1"
+    },
+    {
+        "vehicleId": "PRAV1TEST"
+    },
+    {
+        "vehicleId": "RUPV105"
+    },
+    {
+        "vehicleId": "RUPV210"
+    },
+    {
+        "vehicleId": "RUPV210_0"
+    },
+    {
+        "vehicleId": "RUPV310"
+    },
+    {
+        "vehicleId": "RUPV314"
+    },
+    {
+        "vehicleId": "TESTP5550"
+    },
+    {
+        "vehicleId": "TESTRUP105V1"
+    },
+    {
+        "vehicleId": "TestVEH"
+    },
+    {
+        "vehicleId": "TESTVEH001"
+    },
+    {
+        "vehicleId": "TESTvehicle1"
+    },
+    {
+        "vehicleId": "TTVEHICLE"
+    },
+    {
+        "vehicleId": "V1"
+    },
+    {
+        "vehicleId": "V2"
+    },
+    {
+        "vehicleId": "V3"
+    },
+    {
+        "vehicleId": "V4"
+    },
+    {
+        "vehicleId": "V5"
+    },
+    {
+        "vehicleId": "V6"
+    },
+    {
+        "vehicleId": "V7"
+    },
+    {
+        "vehicleId": "V8"
+    },
+    {
+        "vehicleId": "V9"
+    },
+    {
+        "vehicleId": "V10"
+    },
+    {
+        "vehicleId": "V11"
+    },
+    {
+        "vehicleId": "V12"
+    },
+    {
+        "vehicleId": "V13"
+    },
+    {
+        "vehicleId": "V14"
+    },
+    {
+        "vehicleId": "V15"
+    },
+    {
+        "vehicleId": "V16"
+    },
+    {
+        "vehicleId": "V17"
+    },
+    {
+        "vehicleId": "V18"
+    },
+    {
+        "vehicleId": "V19"
+    },
+    {
+        "vehicleId": "V20"
+    },
+    {
+        "vehicleId": "V21"
+    },
+    {
+        "vehicleId": "V22"
+    },
+    {
+        "vehicleId": "V23"
+    },
+    {
+        "vehicleId": "V24"
+    },
+    {
+        "vehicleId": "V25"
+    },
+    {
+        "vehicleId": "V26"
+    },
+    {
+        "vehicleId": "V27"
+    },
+    {
+        "vehicleId": "V28"
+    },
+    {
+        "vehicleId": "V29"
+    },
+    {
+        "vehicleId": "V30"
+    },
+    {
+        "vehicleId": "V31"
+    },
+    {
+        "vehicleId": "V32"
+    },
+    {
+        "vehicleId": "V33"
+    },
+    {
+        "vehicleId": "V34"
+    },
+    {
+        "vehicleId": "V35"
+    },
+    {
+        "vehicleId": "V36"
+    },
+    {
+        "vehicleId": "V37"
+    },
+    {
+        "vehicleId": "V38"
+    },
+    {
+        "vehicleId": "V39"
+    },
+    {
+        "vehicleId": "V40"
+    },
+    {
+        "vehicleId": "V41"
+    },
+    {
+        "vehicleId": "V42"
+    },
+    {
+        "vehicleId": "V43"
+    },
+    {
+        "vehicleId": "V44"
+    },
+    {
+        "vehicleId": "V45"
+    },
+    {
+        "vehicleId": "V46"
+    },
+    {
+        "vehicleId": "V47"
+    },
+    {
+        "vehicleId": "V48"
+    },
+    {
+        "vehicleId": "V49"
+    },
+    {
+        "vehicleId": "V50"
+    },
+    {
+        "vehicleId": "V51"
+    },
+    {
+        "vehicleId": "V52"
+    },
+    {
+        "vehicleId": "V53"
+    },
+    {
+        "vehicleId": "V54"
+    },
+    {
+        "vehicleId": "V55"
+    },
+    {
+        "vehicleId": "V56"
+    },
+    {
+        "vehicleId": "V57"
+    },
+    {
+        "vehicleId": "V58"
+    },
+    {
+        "vehicleId": "V59"
+    },
+    {
+        "vehicleId": "V60"
+    },
+    {
+        "vehicleId": "V61"
+    },
+    {
+        "vehicleId": "V62"
+    },
+    {
+        "vehicleId": "V63"
+    },
+    {
+        "vehicleId": "V64"
+    },
+    {
+        "vehicleId": "V65"
+    },
+    {
+        "vehicleId": "V66"
+    },
+    {
+        "vehicleId": "V67"
+    },
+    {
+        "vehicleId": "V68"
+    },
+    {
+        "vehicleId": "V69"
+    },
+    {
+        "vehicleId": "V70"
+    },
+    {
+        "vehicleId": "V71"
+    },
+    {
+        "vehicleId": "V72"
+    },
+    {
+        "vehicleId": "Veh1"
+    },
+    {
+        "vehicleId": "VEH001"
+    },
+    {
+        "vehicleId": "Veh2"
+    },
+    {
+        "vehicleId": "VEH009"
+    },
+    {
+        "vehicleId": "vehicle1"
+    },
+    {
+        "vehicleId": "VEHICLE90"
+    },
+    {
+        "vehicleId": "xfdgf"
+    }
+]
